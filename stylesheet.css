@@ -1,0 +1,72 @@
+html {
+    background-image: url(img/shoes.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+#container{
+    width: 100%;
+}
+#header {
+    width: 100%;
+    text-align: center;
+    background-color: black
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    width:100%;
+    height: 60px;
+    background-color: black; 
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black
+}
+.nav li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 38px;
+    text-decoration: none;
+    float: left;
+    font-family: "Roboto";
+    font-size: 25px;
+    border-right: 2px solid white;
+    
+}
+
+.nav li:hover {
+    background-color: #333;
+
+}
+#leftnav {
+    float: left;
+    width: 240px;
+    height: 100vh; 
+    background-color: #FFCC33
+}
+h1 {
+    color: white;
+    font-family: "roboto";
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position:fixed;
+    left: 8px;
+    width:60%;
+    top:42vh;
+    height:100px;
+    z-index:100;
+    padding-top: 20px;
+    padding-left: 25px;
+    
+       
+}
